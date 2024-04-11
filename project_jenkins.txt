@@ -1,0 +1,10 @@
+2 VM first - test, second - deploy
+host > jenkins, java, docker-compouse, ssh 
+host > ssh key
+Docker-compouse > nginx, html, java > push git
+Jenkins pipe > pull git:
+1. pull Docker
+2. run to server1
+3. test html in server1
+4. copy docker image to server2
+5. test true/false docker image

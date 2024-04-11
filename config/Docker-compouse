@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  web:
+    image: nginx
+    volumes:
+      - ./config:/etc/nginx/html
+    ports:
+      - "80:80"
+  ubuntu:
+    image: ubuntu
+    volumes:
+      - ./config:/config
